@@ -1,0 +1,29 @@
+.pItems{
+    background-color: #1e1e1e;
+    color: white;
+    padding: 2rem;
+    height: 100vh;
+}
+
+.pItem{
+    background: #353535;
+    border-radius: 1rem;
+    height: max-content;
+    padding: 2rem;
+}
+
+.titleMp{
+
+    margin-bottom: 2rem;
+
+}
+
+.myC{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pItems a{
+    color: white !important;
+    text-decoration: none !important;
+}

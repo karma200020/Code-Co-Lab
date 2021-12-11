@@ -1,0 +1,24 @@
+.signForm{
+    background: #1e1e1e;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.bx{
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 1rem;
+    background: #4c4c4c;
+    border-radius: 20px;
+}
+
+.MuiOutlinedInput-root {
+    background-color: white !important;
+}
+
+.themeText{
+    color: rgba(252, 235, 0, 0.986);
+}

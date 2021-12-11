@@ -1,0 +1,24 @@
+
+all page titles and favico for currenta nd cryptex {maybe :-) }
+
+add link to text editor page in mycode and specific code page
+
+Something like this would help you.
+
+First, set CodeMirror:
+
+this.editor = CodeMirror.fromTextArea(document.getElementById("textAreaCodeMirror"), {
+    lineNumbers: true,
+    matchBrackets: true,
+    styleActiveLine: true,
+    theme:"eclipse",
+    mode:language
+});
+Then, to change the mode
+
+this.editor.setOption("mode", language);
+
+
+https://codemirror.net/mode/
+
+
